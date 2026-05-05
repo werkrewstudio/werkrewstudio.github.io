@@ -1,31 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Werkrew</title>
-<style>
-body {
-font-family: Arial;
-margin: 0;
-padding: 20px;
-text-align: center;
-}
-img {
-width: 100%;
-max-width: 600px;
-margin-bottom: 20px;
-}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Werkrew</title>
+
+  <style>
+    body {
+      margin: 0;
+      background: #f7f7f5;
+      color: #111;
+      font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .container {
+      text-align: center;
+      max-width: 500px;
+      padding: 20px;
+    }
+
+    h1 {
+      font-weight: 400;
+      letter-spacing: 4px;
+      font-size: 28px;
+      margin-bottom: 30px;
+    }
+
+    img {
+      width: 100%;
+      max-width: 500px;
+      margin: 20px 0 30px;
+      display: block;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+      margin: 10px 0;
+    }
+
+    a {
+      color: #111;
+      text-decoration: none;
+      border-bottom: 1px solid #111;
+      padding-bottom: 2px;
+    }
+
+    a:hover {
+      opacity: 0.6;
+    }
+  </style>
 </head>
+
 <body>
+  <div class="container">
+    <h1>WERKREW</h1>
 
-<h1>WERKREW</h1>
-<p>Photography — Sweden</p>
+    <img src="photos/photo1.jpg" alt="Werkrew photography">
 
-<img src="https://picsum.photos/600/800?1">
-<img src="https://picsum.photos/600/800?2">
-<img src="https://picsum.photos/600/800?3">
+    <p>
+      The new site is under construction and coming soon.
+    </p>
 
-
+    <p>
+      Drop me a line at 
+      <a href="mailto:hello@werkrew.studio">hello@werkrew.studio</a>
+    </p>
+  </div>
 </body>
 </html>
